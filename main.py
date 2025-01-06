@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import random
 
-
+#codes
 def send_email(sender_email, receiver_email, subject, body, password):
     message = MIMEMultipart()
     message['From'] = sender_email
